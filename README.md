@@ -1,6 +1,6 @@
-# Cinch::Gameclub
+# Cinch::Plugins::Gameclub
 
-TODO: Write a gem description
+WIP DO NOT USE
 
 ## Installation
 

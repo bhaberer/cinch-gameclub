@@ -1,7 +1,2 @@
-require "cinch-gameclub/version"
-
-module Cinch
-  module Gameclub
-    # Your code goes here...
-  end
-end
+require 'cinch/plugins/gameclub/version'
+require 'cinch/plugins/gameclub/gameclub'
