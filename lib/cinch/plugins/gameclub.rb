@@ -34,7 +34,7 @@ module Cinch::Plugins
       # = config[:steam_apikey]
 
     end
-    
+
     match /gameclub ([^\s]+)(?:\s(.+))?/
 
     def execute(m, command, args = nil)

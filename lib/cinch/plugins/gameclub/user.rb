@@ -1,9 +1,14 @@
 module Cinch
   module Plugins
     class Gameclub
-      class User < Struct.new(:nick, :steamid, :aliases, :games)
-        def to_yaml
-          { :nick => nick, :steamid => steamid, :aliases => aliases, :games => games }
+      class User
+        attr_accessor :nick, :steamid, :aliases, :games
+
+        def initialize(nick, steamid)
+          @nick = nick
+          @steamid = steamid
+          @aliases = []
+          @games = []
         end
 
         def refresh_games
